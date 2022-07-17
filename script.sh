@@ -18,8 +18,10 @@ mkdir mods
 wget [ADDTHELINKTOTHEMODSHERE]
 cd Minecraft Server
 mkdir datapacks
-wget https://vanillatweaks.net/download/VanillaTweaks_d300851_UNZIP_ME.zip
-wget https://doc-0o-40-docs.googleusercontent.com/docs/securesc/c3l6k0ttjttcr5btuu87o2tpgq60f4vp/auc4c6q5rehjaod3o7ga3k2d82rhdloh/1658082075000/02121226610621352199/17922041845703050372Z/16sM4P0pGFTIMMjJVZRZS6dTh596GNUHS?e=download&uuid=d1cfd986-4e48-42ab-875c-1b96434e9043&nonce=a2o5kpodhgfo4&user=17922041845703050372Z&hash=og5koh8ekkptpm1kuqs3ptkn6dulat7i
+wget https://vanillatweaks.net/download/VanillaTweaks_d805212_UNZIP_ME.zip
+unzip VanillaTweaks_d805212_UNZIP_ME.zip
+wget --no-check-certificate 'https://docs.google.com/uc?export=download&id=16sM4P0pGFTIMMjJVZRZS6dTh596GNUHS' -O nFactions 1.1.zip
+unzip nFactions 1.1.zip
 cd Minecraft Server
 mkdir world
 cd world
