@@ -3,15 +3,14 @@ sudo apt purge snapd -y
 #You did install SSH right?
 #Need zip
 sudo apt install unzip -y
-#Fish Time
-sudo add-apt-repository ppa:fish-shell/release-3 -y
-sudo apt update -y
-sudo apt install fish -y
-fish
-chsh -s /usr/bin/fish
-#Rember future me to add the logout
+#Install Java
+sudo apt-get update && sudo apt-get upgrade -y
+sudo apt-get install software-properties-common ca-certificates apt-transport-https curl -y
+curl https://apt.corretto.aws/corretto.key | sudo apt-key add -
+sudo add-apt-repository 'deb https://apt.corretto.aws stable main'
+sudo apt-get update -y
+sudo apt-get install -y java-17-amazon-corretto-jdk -y
 #Minecraft server
-sudo apt install openjdk-16 -y
 mkdir Minecraft Server
 cd Minecraft Server
 mkdir mods
