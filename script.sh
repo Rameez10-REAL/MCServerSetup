@@ -15,7 +15,7 @@ sudo apt install openjdk-16 -y
 mkdir Minecraft Server
 cd Minecraft Server
 mkdir mods
-wget [ADDTHELINKTOTHEMODSHERE]
+wget [https://www.curseforge.com/minecraft/mc-mods/watchdog-anti-cheat/download/3481572]
 cd Minecraft Server
 mkdir datapacks
 wget https://vanillatweaks.net/download/VanillaTweaks_d805212_UNZIP_ME.zip
